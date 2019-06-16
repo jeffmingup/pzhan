@@ -17,7 +17,7 @@ def dowmpicture(url,i):
 	print('%d下载完成'%i)
 	
 if __name__=='__main__':
-	r = requests.get('https://www.pixiv.net/ranking_log.php?mode=daily&content=all&date=201807')
+	r = requests.get('https://www.pixiv.net/ranking_log.php?mode=daily&content=all&date=201904')
 	urls = re.findall(r'data-src="(.*)"src="',r.text,0)
 	i=0
 	p = Pool()
