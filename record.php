@@ -24,8 +24,8 @@ $cookie_file = dirname(__FILE__).'/cookie.txt';
 
 //先获取cookies并保存
 $url = "https://cs.zijingcloud.com/meet/doLogin.json";
-$params = ['account'=>'admin@hxylt.cn',
-'pwd'=>'admin@2019',
+$params = ['account'=>'',
+'pwd'=>'',
 'remember'=>'ture',
 ];
 $curl = curl_init();
